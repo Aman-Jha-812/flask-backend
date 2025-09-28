@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Checking out Flask backend code...'
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/flask-backend.git'
+                git branch: 'main', url: 'https://github.com/Aman-Jha-812/flask-backend.git'
             }
         }
         
